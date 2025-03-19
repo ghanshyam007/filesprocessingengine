@@ -22,16 +22,18 @@ There are 2 ways to use this CLI Utility.
 ----------------------------------------------------------------------------------------------------------------------------
                                                                  File Name: test.txt
 ----------------------------------------------------------------------------------------------------------------------------
-RULE_UPPERCASE_START_WORDS_COUNT 	          :: No of words starting with a capital letter: 3
-RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [operations, created, analysis, sample]
+**RULE_UPPERCASE_START_WORDS_COUNT 	          :: No of words starting with a capital letter: 3
+
+RULE_MIN_LENGTH_WORDS                   	  :: No of words with length more than 5 are : [operations, created, analysis, sample]**
 
 **Enter Empty Directory for Processing C:\Coding\test\info.txt Source File :** C:\Coding\temp
 
 ----------------------------------------------------------------------------------------------------------------------------
                                                                  File Name: info.txt
 ----------------------------------------------------------------------------------------------------------------------------
-RULE_UPPERCASE_START_WORDS_COUNT   	        :: No of words starting with a capital letter: 1
-RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [project, information]
+**RULE_UPPERCASE_START_WORDS_COUNT   	                :: No of words starting with a capital letter: 1
+
+RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [project, information]**
 
 Choose an option:
 1. Perform an File Processing Operation.
