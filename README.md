@@ -19,27 +19,8 @@ There are 2 ways to use this CLI Utility.
 
 **Enter Empty Directory for Processing C:\Coding\test\test.txt Source File :** C:\Coding\temp
 
-----------------------------------------------------------------------------------------------------------------------------
-                                                                 File Name: test.txt
-----------------------------------------------------------------------------------------------------------------------------
-**RULE_UPPERCASE_START_WORDS_COUNT 	          :: No of words starting with a capital letter: 3
+![image](https://github.com/user-attachments/assets/7dd72eeb-b44e-4c5e-ab95-8f8bb7936e27)
 
-RULE_MIN_LENGTH_WORDS                   	  :: No of words with length more than 5 are : [operations, created, analysis, sample]**
-
-**Enter Empty Directory for Processing C:\Coding\test\info.txt Source File :** C:\Coding\temp
-
-----------------------------------------------------------------------------------------------------------------------------
-                                                                 File Name: info.txt
-----------------------------------------------------------------------------------------------------------------------------
-**RULE_UPPERCASE_START_WORDS_COUNT   	                :: No of words starting with a capital letter: 1
-
-RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [project, information]**
-
-Choose an option:
-1. Perform an File Processing Operation.
-2. Exit.
-Your option:** 2**
-Spring Boot application stopped successfully.
 
 
 **Approach 2** - Just run application from Command line.
@@ -47,23 +28,8 @@ Spring Boot application stopped successfully.
 
 **Enter Empty Directory for Processing C:\Coding\test\ Source File :** C:\Coding\temp
 
-----------------------------------------------------------------------------------------------------------------------------
-                                                                 File Name: test.txt
-----------------------------------------------------------------------------------------------------------------------------
-RULE_UPPERCASE_START_WORDS_COUNT 	          :: No of words starting with a capital letter: 3
-RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [operations, created, analysis, sample]
+![image](https://github.com/user-attachments/assets/33086a2f-e87f-48ab-9291-e604d068884c)
 
-----------------------------------------------------------------------------------------------------------------------------
-                                                                 File Name: info.txt
-----------------------------------------------------------------------------------------------------------------------------
-RULE_UPPERCASE_START_WORDS_COUNT   	:: No of words starting with a capital letter: 1
-RULE_MIN_LENGTH_WORDS                   		:: No of words with length more than 5 are : [project, information]
-
-Choose an option:
-1. Perform an File Processing Operation.
-2. Exit.
-Your option: **2**
-Spring Boot application stopped successfully.
 
 Note: We need to provide temporary empty directory as well, because using Apache camel file component for efficiency, which requires directory to process file. Hence, you see above, command line ask "Enter Empty Directory for Processing <Source File Name> Source File :"
 
